@@ -1,0 +1,151 @@
+/* General Styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;0,14..32,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  height: fit-content;
+  background-color: #0d273c;
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+/* Header */
+
+nav {
+  display: flex;
+  justify-content: end;
+  padding-right: 200px;
+  gap: 30px;
+  padding: 20px;
+  font-size: 16px;
+}
+.link-in-header a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.header-icon {
+  width: 24px;
+  height: 24px;
+  padding-top: 9px;
+}
+.header-part {
+  display: flex;
+  gap: 213px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+/* Logo */
+.logo-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo {
+  width: 80px;
+}
+
+/* SEARCH START */
+/* SEARCH START */
+
+.search-barr {
+  border-radius: 10px;
+  height: 47px;
+  width: 550px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  /* flex-direction: column;
+  justify-content: flex-end; */
+  color: black;
+}
+.search-barr {
+  flex-shrink: 0;
+  min-width: 500px; /* Prevent shrinking */
+}
+
+.category-all {
+  margin-right: 50px;
+  padding-left: 16px;
+  font-size: 12px;
+}
+
+.category-all p {
+  margin-bottom: 9px;
+}
+option {
+  font-size: 20px;
+  background: #4d606e;
+}
+
+.all select {
+  border: none;
+}
+
+.searching input {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 16px;
+}
+.search-bar-text {
+  background-color: rgba(151, 207, 255, 0.604);
+  border-radius: 0.2rem;
+}
+.submitting {
+  background: rgb(205, 0, 0);
+  /* color: #fff;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 0.2rem; */
+  /* margin-right: 0.4rem; */
+}
+
+/* SEARCH END */
+/* SEARCH END */
+
+.categories {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-evenly;
+  background: #334a5b59;
+  padding: 0;
+  margin: 0;
+}
+.categories a {
+  text-decoration: none;
+  color: white;
+}
+.category {
+  padding: 5px;
+}
+.category:hover {
+  background-color: #4d606e;
+  border-radius: 4px;
+  padding: 6px 10px;
+  transition: 0.4s;
+}

@@ -1,0 +1,92 @@
+/* 
+#000B58
+#003161
+#D4EBF8
+#006A67
+#FFF4B7
+#d66911
+*/
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e9e9e9;
+  font-family: Arial, "Geologica", Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.detail-body-container {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 2.5fr 1.2fr;
+  object-fit: cover;
+  margin: 0 auto;
+  gap: 1rem;
+}
+.images-container :first-child {
+  grid-column: -1/1;
+}
+.images-container {
+  padding: 5rem 0;
+  padding-bottom: 0;
+  /* padding-left: 4rem; */
+  /* padding-right: 8rem; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.images-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.detail-container {
+  margin-top: 5rem;
+
+  background-color: #303bff50;
+  padding: 5rem;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 1rem;
+}
+.price p {
+  background-color: #ffd500;
+  border-radius: 0.5rem;
+  padding: 2rem 3rem;
+}
+.price-detail {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.show-owner-phone,
+.call-now {
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+}
+
+.show-owner-phone {
+  background-color: green;
+  color: #fff;
+
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+.call-now {
+  background-color: #c70000;
+  border-radius: 0.5rem;
+  color: #fff;
+}

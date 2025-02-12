@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="../../styles/house.css" />
+
+  <title>Gorent - House</title>
+</head>
+
+<body>
+  <main>
+    <section class="house-section">
+      <p class="house-head">Your Dream Home, Just a Click Away</p>
+      <div class="house-page-container">
+
+        <div class="house-container">
+          <div class="house-box">
+            <div class="house">
+              <img
+                class="house-img"
+                src="../../images/house/House1 (1).jpg"
+                alt="" />
+              <div class="div house-explanation">
+                <p class="house-title">Apartment</p>
+                <p class="house-price">20000 ETB/ Month</p>
+                <p class="price-type">Fixed</p>
+                <p class="house-address">Addis Ababa, Bole</p>
+              </div>
+              <div class="saved-phone-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="saved-icon">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                </svg>
+                <p
+                  class="show-phone"
+                  id="toggleText"
+                  onclick="toggleContent()">
+                  SHOW PHONE
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="house-box">
+            <div class="house">
+              <img
+                class="house-img"
+                src="../../images/house/House2.jpeg"
+                alt="" />
+              <div class="div house-explanation">
+                <p class="house-title">Villa 12 X 15</p>
+                <p class="house-price">15000 ETB/ Month</p>
+                <p class="price-type">Fixed</p>
+                <p class="house-address">Nekemte, Bord</p>
+              </div>
+              <div class="saved-phone-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="saved-icon">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                </svg>
+                <p
+                  class="show-phone"
+                  id="toggleText"
+                  onclick="toggleContent()">
+                  SHOW PHONE
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="house-box">
+            <div class="house">
+              <img
+                class="house-img"
+                src="../../images/house/House3.jpg"
+                alt="" />
+              <div class="div house-explanation">
+                <p class="house-title">G+3 House</p>
+                <p class="house-price">15000 ETB/ Month</p>
+                <p class="price-type">Fixed</p>
+                <p class="house-address">Jimma, Ginjo</p>
+              </div>
+              <div class="saved-phone-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="saved-icon">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                </svg>
+                <p
+                  class="show-phone"
+                  id="toggleText"
+                  onclick="toggleContent()">
+                  SHOW PHONE
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="house-box">
+            <div class="house">
+              <img
+                class="house-img"
+                src="../../images/house/House4.jpg"
+                alt="" />
+              <div class="div house-explanation">
+                <p class="house-title">House 10X12, 3 bedroom</p>
+                <p class="house-price">15000 ETB/ Month</p>
+                <p class="price-type">Fixed</p>
+                <p class="house-address">Hawassa</p>
+              </div>
+              <div class="saved-phone-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="saved-icon">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                </svg>
+                <p class="show-phone">SHOW PHONE</p>
+              </div>
+            </div>
+          </div>
+          <div class="house-box">
+            <div class="house">
+              <img
+                class="house-img"
+                src="../../images/house/House5.jpg"
+                alt="" />
+              <div class="div house-explanation">
+                <p class="house-title">Apartment</p>
+                <p class="house-price">1500 ETB/ Month</p>
+                <p class="price-type">Negotiable</p>
+                <p class="house-address">Adama, Bole</p>
+              </div>
+              <div class="saved-phone-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="saved-icon">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                </svg>
+                <p
+                  class="show-phone"
+                  id="toggleText"
+                  onclick="toggleContent()">
+                  SHOW PHONE
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="house-box">
+            <div class="house">
+              <img
+                class="house-img"
+                src="../../images/house/House6.jpg"
+                alt="" />
+              <div class="div house-explanation">
+                <p class="house-title">Apartment</p>
+                <p class="house-price">1500 ETB/ Month</p>
+                <p class="price-type">Negotiable</p>
+                <p class="house-address">Mekele, 07</p>
+              </div>
+              <div class="saved-phone-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="saved-icon">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                </svg>
+                <p
+                  class="show-phone"
+                  id="toggleText"
+                  onclick="toggleContent()">
+                  SHOW PHONE
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="house-box">
+            <div class="house">
+              <img
+                class="house-img"
+                src="../../images/house/House7.jpg"
+                alt="" />
+              <div class="div house-explanation">
+                <p class="house-title">Apartment</p>
+                <p class="house-price">1500 ETB/ Month</p>
+                <p class="price-type">Fixed</p>
+                <p class="house-address">Jigjiga, 01</p>
+              </div>
+              <div class="saved-phone-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="saved-icon">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                </svg>
+                <p
+                  class="show-phone"
+                  id="toggleText"
+                  onclick="toggleContent()">
+                  SHOW PHONE
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="house-box">
+            <div class="house">
+              <img
+                class="house-img"
+                src="../../images/house/House8.jpg"
+                alt="" />
+              <div class="div house-explanation">
+                <p class="house-title">Apartment</p>
+                <p class="house-price">1500 ETB/ Month</p>
+                <p class="price-type">Negotiable</p>
+                <p class="house-address">Nekemte, Jitu</p>
+              </div>
+              <div class="saved-phone-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="saved-icon">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                </svg>
+                <p
+                  class="show-phone"
+                  id="toggleText"
+                  onclick="toggleContent()">
+                  SHOW PHONE
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="house-box">
+            <div class="house">
+              <img
+                class="house-img"
+                src="../../images/house/House9.jpg"
+                alt="" />
+              <div class="div house-explanation">
+                <p class="house-title">Villa G+1</p>
+                <p class="house-price">1500 ETB/ Month</p>
+                <p class="price-type">Negotiable</p>
+                <p class="house-address">Bahir Dar, 04</p>
+              </div>
+              <div class="saved-phone-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="saved-icon">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                </svg>
+                <p
+                  class="show-phone"
+                  id="toggleText"
+                  onclick="toggleContent()">
+                  SHOW PHONE
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="house-box">
+            <div class="house">
+              <img
+                class="house-img"
+                src="../../images/house/House10.jpg"
+                alt="" />
+              <div class="div house-explanation">
+                <p class="house-title">Villa 10 X 10, 3 bedrooms</p>
+                <p class="house-price">17000 ETB/ Month</p>
+                <p class="price-type">Fixed</p>
+                <p class="house-address">Addis Ababa, Summit</p>
+              </div>
+              <div class="saved-phone-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="saved-icon">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                </svg>
+                <p
+                  class="show-phone"
+                  id="toggleText"
+                  onclick="toggleContent()">
+                  SHOW PHONE
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="house-box">
+            <div class="house">
+              <img
+                class="house-img"
+                src="../../images/house/House11.jpg"
+                alt="" />
+              <div class="div house-explanation">
+                <p class="house-title">Villa G+1, 5 Bedrooms</p>
+                <p class="house-price">1500 ETB/ Month</p>
+                <p class="price-type">Negotiable</p>
+                <p class="house-address">Lega Tafo, Shegar</p>
+              </div>
+              <div class="saved-phone-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="saved-icon">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                </svg>
+                <p
+                  class="show-phone"
+                  id="toggleText"
+                  onclick="toggleContent()">
+                  SHOW PHONE
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="house-box">
+            <div class="house">
+              <img
+                class="house-img"
+                src="../../images/house/House12.jpg"
+                alt="" />
+              <div class="div house-explanation">
+                <p class="house-title">Villa 8 X 10, 3 Bedrooms</p>
+                <p class="house-price">12000 ETB/ Month</p>
+                <p class="price-type">Negotiable</p>
+                <p class="house-address">Jimma, Ginjo</p>
+              </div>
+              <div class="saved-phone-container">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="saved-icon">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                </svg>
+                <p
+                  class="show-phone"
+                  id="toggleText"
+                  onclick="toggleContent()">
+                  SHOW PHONE
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

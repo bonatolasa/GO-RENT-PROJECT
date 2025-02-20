@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reset Account</title>
+    <link rel="stylesheet" href="../../../styles/reset.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="lists">
+          <li><a href="../../home/index.php">Home Page</a></li>
+          <li><a href="../login/LOGIN.html"> Sign-in</a></li>
+          <li><a href="../create/CREATE.html">Register</a></li>
+          <li>
+            <a href="../reset/reset.html" class="active">Reset Account</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="reset-container">
+        <h2>Reset Account</h2>
+        <p>
+          <span class="info-icon">ℹ</span> Enter the email address associated
+          with your go-rent account.
+        </p>
+        <form>
+          <label for="email">Email</label>
+          <div class="input-container">
+            <span class="icon">&#9993;</span>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <button type="submit" class="continue-btn">
+            <a href="">continue</a>
+          </button>
+        </form>
+        <p class="remember">
+          Remember Password?
+          <a href="LOGIN.html" class="signin-link">Sign-in</a>
+        </p>
+        <p class="new-user">
+          ---------- New to go-rent? ---------- <br />
+          <a href="CREATE.html">Register now</a>
+        </p>
+      </div>
+    </main>
+  </body>
+</html>

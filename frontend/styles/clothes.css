@@ -1,0 +1,245 @@
+/* 
+#000B58
+#003161
+#D4EBF8
+#006A67
+#FFF4B7
+#d66911
+*/
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f9f9f9;
+  font-family: Arial, "Geologica", Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+/* }++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* Clothes SECTION */
+/* ++++++++++++++++++++++++++++++++++++++++++ */
+
+.clothe-section {
+  max-width: 130rem;
+  margin: 1rem auto;
+}
+.clothe-head {
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: 600;
+  margin: 1rem 3rem;
+  margin-left: 4rem;
+  padding: 1rem;
+  background-color: #006a67;
+  background-image: linear-gradient(to right bottom, #006a67, #746a31);
+  color: #fff;
+  border-radius: 0.6rem;
+}
+.clothe-page-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 0.2rem;
+}
+.clothe-container {
+  display: flex;
+  margin: 0 auto;
+  align-self: center;
+  padding: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Container for clothes */
+
+.clothe-box {
+  background-color: #fff;
+  width: 22rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  flex: 1 1 calc(25% - 1rem); /* 4 columns with space in between */
+  min-width: 22rem;
+  max-width: 22rem; /* Ensure a consistent card size */
+  transition: transform 0.3s ease-in-out;
+}
+
+.clothe-box:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.126);
+
+  transform: scale(1.03);
+}
+
+.clothe-img {
+  width: 100%;
+  height: 24rem;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  padding: 0.8rem;
+  margin-bottom: 0;
+}
+
+.clothe-img:hover {
+  border-radius: 2rem;
+  padding: 1rem;
+
+  transition: all 0.2s;
+}
+/* .clothe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+} */
+.clothe-explanation {
+  text-align: center;
+}
+.clothe-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.clothe-price {
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 600;
+  color: #e91e63;
+  margin: 0.5rem;
+}
+.price-type {
+  font-size: 1.4rem;
+  margin: 0.5rem;
+  font-weight: 600;
+  /* color: #003161; */
+  color: #4caf50;
+  text-align: center;
+}
+.clothe-address {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.saved-phone-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  /* justify-content: space-between; */
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.6rem;
+  padding: 1rem;
+  margin-bottom: 0.7rem;
+  margin-top: 10px;
+}
+.saved-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #007bff;
+}
+.show-phone {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  background-color: #d66911;
+  width: 12rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+.show-phone.clicked {
+  background-color: #003161; /* Change background to red when clicked */
+}
+
+/* Clothes conten
+  
+  
+  @media (max-width: 768px) {
+    .clothe-box {
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    .clothe-img {
+      max-width: 200px;
+    }
+  }
+   */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* FITER ASIDE */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.filter-side {
+  margin-left: 4rem;
+  margin-top: 1rem;
+  padding: 4rem 4rem;
+  justify-content: center;
+  /* background-color: #003161; */
+  background-image: linear-gradient(to bottom, #0660bb, #c7b7ff);
+  border-radius: 1rem;
+  color: #fff;
+}
+
+.filter-header {
+  font-size: 2rem;
+  margin: 1rem;
+  text-align: center;
+}
+.price {
+  font-size: 1.6rem;
+  margin-top: 3rem;
+}
+label {
+  font-size: 1.6rem;
+}
+input {
+  margin: 1rem 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.8rem;
+}
+select {
+  margin: 1rem 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.8rem;
+  background-color: #d66911;
+  width: 18rem;
+  font-weight: 500;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+option {
+  cursor: pointer;
+}
+
+.submit-filter {
+  color: #fff;
+  background-color: #d66911;
+  width: 20rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+input[type="text"],
+input[type="number"] {
+  border: 0.2rem solid #c5d6ffac; /* Change border color */
+  /* border-radius: 1rem; Rounded corners */
+  padding: 0.5rem; /*Add padding inside input*/
+  outline: none; /* Remove default outline on focus */
+  transition: border-color 0.3s ease; /* Smooth transition for focus */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #ff831d; /* Change border color on focus */
+  /* Add shadow effect */
+}
